@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>シンプルなWebサイト</title>
+  <style>
+    /* 全体のリセットと基本設定 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ヘッダー */
+    header {
+      background-color:#6600CC;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    /* メインコンテンツ */
+    main {
+      flex: 1; /* 残りのスペースを占める */
+      padding: 2rem;
+      background-color:#6600FF ;
+    }
+
+    /* フッター */
+    footer {
+      background-color: #6600CC;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    footer a {
+      color: #00aced;
+      text-decoration: none;
+      margin: 0 0.3rem;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>フィフミンのつどい</h1>
+  </header>
+
+  <main>
+ 　 <h2>我らが神</h2>
+ <p>50TA</p>
+
+    <h2>理念</h2>
+    <p>「歌い、踊り、華麗に落下する。」</p>
+
+    <h2>布教活動の掟</h2>
+    <p>1.インドの牛乳屋さん　2.ノコギリガール～ひとりでトイレにいけるもん～　3.Over the rainbow　</p>
+  </main>
+
+  <footer>
+    <p>お問い合わせ: we.are.fifmin@example.com</p>
+    <p>
+      SNS:
+      <a href="#">Twitter</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a>
+    </p>
+  </footer>
+</body>
+</html>
